@@ -1,0 +1,11 @@
+This is an example of a cURL command.
+
+You need to replace SEARCHSTRING with your search terms.
+
+The output will be saved to a file called response.json in the folder /folder
+
+
+
+curl -X POST "https://formstrap.com/IconSearchAPI/v1/search" \
+     -d "search=SEARCHSTRING" \
+     -o /folder/response.json
